@@ -12,9 +12,20 @@ const PinSchema = new mongoose.Schema(
       min: 3,
       max: 60,
     },
-    desc: {
+    location: {
       type: String,
       required: true,
+      min: 3,
+      max: 60,
+    },
+    desc: {
+      type: String,
+      required: false,
+      min: 3,
+    },
+    timings: {
+      type: String,
+      required: false,
       min: 3,
     },
     rating: {
