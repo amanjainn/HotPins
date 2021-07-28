@@ -1,3 +1,6 @@
+Live View: https://hotpins.herokuapp.com/
+
+
 # HotPins
 A real-time Mern stack application built on Mapbox API. The application allows users to find the trendiest events happening around them. Users can also create event pins to add an event .
 
